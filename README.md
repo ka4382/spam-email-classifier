@@ -57,37 +57,41 @@ spam-email-classifier/ │ ├── accuracy.py # Model training and evaluation
 ```bash
 git clone https://github.com/yourusername/spam-email-classifier.git
 cd spam-email-classifier
+```
+## Install dependencies
 
-Install dependencies
-
-
+```bash
 pip install -r requirements.txt
 (Optional) Train the model
+```
 
-
+```bash
 python accuracy.py
+ ```
 Run the Streamlit app
 
 
+```bash
 streamlit run app.py
+```
 Try Messages like:
 
-"Congratulations! You've won a free iPhone" → 🚨 Spam
+```"Congratulations! You've won a free iPhone" → 🚨 Spam```
 
-"Let's meet at 5 PM for coffee" → ✅ Not Spam
+```"Let's meet at 5 PM for coffee" → ✅ Not Spam```
 
-🌐 Live Demo
+## 🌐 Live Demo
 🔗 Click here to try the Live App
-(Replace with your actual deployed Streamlit Cloud link)
+(https://spam-email-classifier-ak.streamlit.app/)
 
-📈 Results
+## 📈 Results
 Achieved high accuracy using simple yet effective ML techniques
 
 Real-time predictions via web UI
 
 Fast, lightweight, and easy to use
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 Use deep learning models (LSTM) for contextual understanding
 
 Add multilingual message support
@@ -96,10 +100,10 @@ Improve UI with detailed feedback and explanations
 
 Auto-retraining pipeline with feedback loop
 
-🙌 Acknowledgements
+## 🙌 Acknowledgements
 UCI SMS Spam Dataset
 
 Streamlit.io for web deployment
 
-👨‍💻 Created by: Karthik Aljapur
+## 👨‍💻 Created by: Karthik Aljapur
 If you found this helpful, give the project a ⭐ on GitHub!
