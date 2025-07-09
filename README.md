@@ -15,13 +15,6 @@ This project aims to build an automated system that:
 
 ---
 
-## 🏗️ Architecture Diagram
-
-![Architecture](architecture-diagram.png)  
-*(Upload the architecture image as `architecture-diagram.png` into your repo)*
-
----
-
 ## ⚙️ Technologies Used
 
 - **Python**
